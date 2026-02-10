@@ -18,9 +18,9 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 z-50 w-full transition-all duration-300 ${scrolled
-          ? "bg-white/70 backdrop-blur-xl border-b border-black/5 py-3"
-          : "bg-transparent py-5"
+      className={`fixed top-0 z-50 w-full bg-white  transition-all duration-300 ${scrolled
+        ? "backdrop-blur-xl py-3 border-b border-black/5"
+        : "border-transparent py-4"
         }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8">

@@ -51,7 +51,7 @@ function HeroContent() {
   const current = content[activeType]
 
   return (
-    <section className="relative overflow-hidden bg-white pt-32 pb-12 lg:pt-36">
+    <section className="relative overflow-hidden bg-white pt-40 pb-12 lg:pt-36">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex flex-col items-center text-center">
           {/* Custom Toggle */}
@@ -116,7 +116,7 @@ function HeroContent() {
         </div>
 
         {/* Dynamic Image Grid */}
-        <div className="mt-24 flex h-auto flex-col gap-4 lg:mt-28 lg:h-[550px] lg:flex-row lg:gap-4">
+        <div className="mt-32 flex h-auto flex-col gap-4 lg:mt-28 lg:h-[550px] lg:flex-row lg:gap-4">
           {[0, 1, 2].map((index) => {
             const activeImg = current.images[index]
             return (
